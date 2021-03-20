@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visualizador</title>
+  <link rel="shortcut icon" href="assets/iconWebcam.png"> <!--icono de la pestaña-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  <!-- Iconos Materialize-->
+  <link rel="stylesheet" href="css/animate.min.css"/>  <!-- Animaciones FadeIn-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="container">
+    <h2 class="animate__animated animate__fadeIn animate white-text">Transmisión en directo</h2>
+    <div class="videoCentrado">
+      <img class="animate__animated animate__fadeIn animate__delay-1s responsive-img" id="blackScreen" src="assets/blackScreen.jpg" alt=""> <!-- Utilizando clase responsive-img de materialize-->
+      <img class="responsive-img" id="play" src="" alt="">
+    </div>
+    <br>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.3.2/sweetalert2.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="js/receptor.js"></script>
+</body>
+</html>

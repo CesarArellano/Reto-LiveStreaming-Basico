@@ -1,0 +1,32 @@
+/* Background responsivo */
+html { 
+  background: url(https://wallpaperstock.net/wallpapers/thumbs1/33626wide.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.contenidoVisual {
+  max-width: 100%;
+  height: auto;
+}
+
+.videoCentrado {
+  display: flex;
+  justify-content: center;
+}
+
+#icnWebCam {
+  height: 125px;
+  width: 125px;
+  margin-top: 50px;
+}
+
+h2 {
+  text-align: center;
+}
+
+a {
+  margin: 10px;
+}
