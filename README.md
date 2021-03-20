@@ -5,7 +5,7 @@ _Reto LiveStreaming Básico de la materia de arquitectura de informaión web - I
 ### Pre-requisitos 📋
 
 ```
- - Node JS
+ Node JS
 ```
 
 ### Instalación 🔧
@@ -31,14 +31,5 @@ Para correr la plataforma ejecute el comando 'npm run dev' y en su navegador col
 
 ## Autores ✒️
 
-
-* **César Arellano** - *Trabajo Inicial* - [cesararellano](https://github.com/CesarArellano)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
+* **César Arellano** - *Funcionalidad Web y Diseño* - [CesarArellano](https://github.com/CesarArellano)
+* **Jair Escamilla** - *API REST para subir imágenes* - [JairEscamilla](https://github.com/JairEscamilla)
