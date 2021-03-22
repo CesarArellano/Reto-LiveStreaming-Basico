@@ -1,6 +1,6 @@
 # Reto Intermedio Arqui. Web - LiveStreaming
 
-_Reto LiveStreaming Básico de la materia de arquitectura de informaión web - IBERO CDMX_
+_Reto LiveStreaming Básico de la materia de Arquitectura de información en web - IBERO CDMX_
 
 ### Pre-requisitos 📋
 
